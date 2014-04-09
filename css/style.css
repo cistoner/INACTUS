@@ -32,7 +32,7 @@ body, html {height:100%;}
 
 a{ color:#6b6b6b; text-decoration: underline; outline:none}
 a:hover{ text-decoration: none}
-p{ padding-bottom:20px;}
+p{ padding-bottom:20px;padding-top:20px}
 
 h2{ font-size:26px; color:#000000; line-height:1.2em; padding:8px 0 18px 0; letter-spacing:-1px;}
 
@@ -77,7 +77,8 @@ not all and (-webkit-min-device-pixel-ratio:0) {
 
 /* ============================= content ====================== */
 
-.content{ padding-top:40px; width:100%; overflow:hidden}
+.content{ padding-top:30px; width:100%; 
+/*overflow:hidden*/}
 
 .pad_left1{ padding-left:39px;}
 .marg_right1{ margin-right:19px;}
@@ -114,7 +115,54 @@ a.aToolTipCloseBtn { display:block;	height:20px; width:20px; overflow:hidden;bac
 
 
 /* ============================= forms ============================= */
+/*=====================toggle================*/
+div.sepContainer1 {
+	height: 4px;
+	background:#e1e8ed;
+	border-left:20px solid #bfd6e4;
+	display: block;
+	margin: 10px 0 30px 0;
+}
+.container {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+.toggle-trigger {
+	text-decoration: none;
+	color: #414550;
+	font-weight: bold;
+	padding: 10px 10px 10px 25px;
+	cursor: pointer;
+	border: 1px solid #b7c7d1;
+	background: #dae4ea url(../images/about/toggle.png) no-repeat 5px 10px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.toggle-trigger.active {
+	border-bottom:1px solid #b7c7d1;
+	background:#bfd6e4 url(../images/about/toggle.png) no-repeat 5px -75px;
+}
+.toggle-trigger:hover {
+	background-color:#bc2020;
+}
+.toggle-container {
+	margin-bottom: 0px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+div.blankSeparator1 {
+	height: 1px;
+	margin:25px 0;
+	display: block;
+}
 
+/*=============================================*/
 #ContactForm {}
 #ContactForm .wrapper{ min-height:40px;}
 #ContactForm .textarea_box{ height:145px; padding-bottom:6px; width:100%; overflow:hidden}

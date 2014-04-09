@@ -6,12 +6,24 @@
 		fl=true;
 function open_page(page, speed){
 	fl=false;
+
+	if(parseInt(page) == '')page = "#page_1";
+
 	destination = $(page).offset().top;
 	if ($.browser.webkit) {div='body'}
 	$(div).animate({ scrollTop: destination}, speed, function(){fl=true});
 }
 $(document).ready(function() {
 
+	/**
+	 * for toggle animation
+	 */
+	$('.toggle-trigger').click(function() {
+		$(this).next().toggle('slow');
+		$(this).toggleClass("active");
+		return false;
+	}).next().hide(); 
+	
 	page=location.hash.slice(0,-1);
 	if (page=='') {location.hash='#page_1/';page='#page_1';}
 	open_page(page,0);

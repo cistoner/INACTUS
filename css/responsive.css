@@ -10,7 +10,7 @@ html {
 .video object,
 .video iframe {
    width: 100%;
-   height: auto;
+   height: 40px;
 }
 img{
 	max-width:100%;
