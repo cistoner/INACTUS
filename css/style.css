@@ -11,7 +11,7 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 
 /* Global properties ======================================================== */
 
-body{ background:#f0f1f0; border:0; font:14px Arial, Helvetica, sans-serif; color:#6b6b6b; line-height:20px;}
+body{ background:#f0f1f0; border:0; text-align: justify; font:20px Garamond, Arial, serif; color:#6b6b6b; line-height:20px;}
 .block {height:78px;}
 .extra {min-height:100%; height:auto !important; height:100%; margin: 0 auto -78px; background:url(../images/bg2.gif) bottom repeat-x;}
 body, html {height:100%;}
