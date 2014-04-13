@@ -96,9 +96,22 @@
 		return false;
 	}).next().hide(); 
 		});
-		
+//#########################################
+//##################read######################
+	
 
+/*$(document).ready(function(){
+			$(".window").click(function{
+					
+					$(".read,.inside,.").fadein(1000);
+					$(".read").click(function){
+						$(".read").hide();
+					}
+			})
+});*/
 
+  
+  
   
 	
 

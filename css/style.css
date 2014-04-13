@@ -125,7 +125,7 @@ div.sepContainer1 {
 }
 .container {
 	position: relative;
-	width: 960px;
+	width: 780px;
 	margin: 0 auto;
 }
 .toggle-trigger {
@@ -147,7 +147,7 @@ div.sepContainer1 {
 	background:#bfd6e4 url(../images/about/toggle.png) no-repeat 5px -75px;
 }
 .toggle-trigger:hover {
-	background-color:#bc2020;
+	background-color:#bfd6e4;
 }
 .toggle-container {
 	margin-bottom: 0px;
@@ -171,5 +171,50 @@ div.blankSeparator1 {
 #ContactForm .input {width:224px; border:1px solid #e3e4e3; background:#fff; padding:6px 8px; color:#bebebe; font:14px Arial, Helvetica, sans-serif; height:16px}
 #ContactForm textarea { overflow: auto; width:224px; border:1px solid #e3e4e3; background:#fff; padding:6px 8px; color:#bebebe; font:14px Arial, Helvetica, sans-serif; height:127px; margin:0}
 
+/*=========================read more===============================*/
 
+.read{
+			width: 100%;
+			height: 720px;
+			background: rgba(0,0,0,0.6);
+			position: absolute;
+			z-index: 2;
+			top: 1760px;
+			display:none;
+	}
+.inside{
+			width: 70%;
+			height: 70%;
+			background: white;
+			padding-left: 50px;
+			padding-top: 20px;
+			overflow: overlay;
+			margin-left: auto;
+			margin-right: auto;
+			position: relative;
+			top: 90px;
+			display:none;
+}
+.abc{
+			padding-left : 300px;
+
+}
+.para{
+			padding-right : 50px;
+}
+
+/*#####################################*/
+
+#page_2{
+		margin-top : -75px;
+}	
+#page_3{
+		margin-top : -75px;
+}	
+#page_4{
+		margin-top : -75px;
+}	
+#page_5{
+		margin-top : -75px;
+}	
 
