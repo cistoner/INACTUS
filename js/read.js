@@ -12,5 +12,8 @@ $(document).ready(function(){
 				$(this).fadeOut("slow");
 				$('div.inside').hide();
 			});
+			
+			$('div#page_1').css('height',($(window).height()-20)+'px');
+			console.log;
 });
 

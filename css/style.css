@@ -39,7 +39,7 @@ h2{ font-size:26px; color:#000000; line-height:1.2em; padding:8px 0 18px 0; lett
 /* ============================= header ====================== */
 header{ width:100%;}
 
-h1{ font-size:74px; line-height:1.2em; padding:78px 0 0 0; text-transform:uppercase; margin-left:-5px; letter-spacing:-1px; margin-bottom:-17px}
+h1{ font-size:74px; line-height:1.2em;text-transform:uppercase; margin-left:-5px; letter-spacing:-1px; margin-bottom:-17px}
 h1 a{ text-decoration:none}
 * +html h1{ padding-top:82px; margin-bottom:-21px;}
 @media all and (-webkit-min-device-pixel-ratio:10000),
@@ -179,7 +179,7 @@ div.blankSeparator1 {
 			background: rgba(0,0,0,0.6);
 			position: absolute;
 			z-index: 2;
-			top: 1760px;
+			top: 1896px;
 			display:none;
 	}
 .inside{
@@ -205,7 +205,7 @@ div.blankSeparator1 {
 
 /*#####################################*/
 
-#page_2{
+/*#page_2{
 		margin-top : -75px;
 }	
 #page_3{
@@ -218,3 +218,4 @@ div.blankSeparator1 {
 		margin-top : -75px;
 }	
 
+*/
